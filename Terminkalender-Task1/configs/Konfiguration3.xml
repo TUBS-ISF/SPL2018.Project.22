@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <feature automatic="selected" name="TerminkalenderTask1"/>
+    <feature automatic="selected" name="Übersichten"/>
+    <feature manual="selected" name="Monatsübersicht"/>
+    <feature automatic="selected" name="Termininteraktion"/>
+    <feature automatic="selected" name="Termin hinzufügen"/>
+    <feature manual="selected" name="Termin bearbeiten"/>
+    <feature automatic="selected" name="Termineigenschaften"/>
+    <feature automatic="selected" name="Zeit"/>
+    <feature automatic="selected" name="Interaktion"/>
+    <feature manual="selected" name="Exportieren"/>
+    <feature manual="selected" name="Importieren"/>
+    <feature manual="selected" name="Verschicken"/>
+    <feature automatic="selected" name="Verwaltung"/>
+    <feature manual="selected" name="Verschiedene Konten"/>
+</configuration>

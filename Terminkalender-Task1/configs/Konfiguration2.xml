@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <feature automatic="selected" name="TerminkalenderTask1"/>
+    <feature automatic="selected" name="Übersichten"/>
+    <feature manual="selected" name="Tagesübersicht"/>
+    <feature manual="selected" name="Wochenübersicht"/>
+    <feature manual="selected" name="Monatsübersicht"/>
+    <feature automatic="selected" name="Termininteraktion"/>
+    <feature automatic="selected" name="Termin hinzufügen"/>
+    <feature automatic="selected" name="Termineigenschaften"/>
+    <feature automatic="selected" name="Priorität"/>
+    <feature automatic="selected" name="Zeit"/>
+    <feature automatic="selected" name="Termintyp"/>
+    <feature automatic="selected" name="Filtern"/>
+    <feature manual="selected" name="Nach Zeit"/>
+    <feature manual="selected" name="Nach Typ"/>
+    <feature manual="selected" name="Nach Priorität"/>
+</configuration>
