@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <feature automatic="selected" name="TerminkalenderTask3"/>
+    <feature automatic="selected" name="Overviews"/>
+    <feature manual="selected" name="Day"/>
+    <feature manual="selected" name="Week"/>
+    <feature manual="selected" name="Month"/>
+    <feature automatic="selected" name="Appointment interaction"/>
+    <feature automatic="selected" name="Add"/>
+    <feature manual="selected" name="Delete"/>
+    <feature automatic="selected" name="Appointment properties"/>
+    <feature manual="selected" name="Priority"/>
+    <feature automatic="selected" name="Time"/>
+    <feature automatic="selected" name="Title"/>
+    <feature automatic="selected" name="Base"/>
+</configuration>

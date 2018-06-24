@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <feature automatic="selected" name="TerminkalenderTask3"/>
+    <feature manual="selected" name="Notification"/>
+    <feature automatic="selected" name="Overviews"/>
+    <feature manual="selected" name="Day"/>
+    <feature manual="selected" name="Week"/>
+    <feature manual="selected" name="Month"/>
+    <feature automatic="selected" name="Appointment interaction"/>
+    <feature automatic="selected" name="Add"/>
+    <feature manual="selected" name="Delete"/>
+    <feature manual="selected" name="Edit"/>
+    <feature automatic="selected" name="Appointment properties"/>
+    <feature manual="selected" name="Cyclic"/>
+    <feature automatic="selected" manual="selected" name="Priority"/>
+    <feature manual="selected" name="Location"/>
+    <feature automatic="selected" name="Time"/>
+    <feature manual="selected" name="Participants"/>
+    <feature automatic="selected" manual="selected" name="Type"/>
+    <feature automatic="selected" name="Title"/>
+    <feature automatic="selected" name="Filter"/>
+    <feature manual="selected" name="By time"/>
+    <feature manual="selected" name="By type"/>
+    <feature manual="selected" name="By priority"/>
+    <feature automatic="selected" name="Interactions"/>
+    <feature manual="selected" name="Export"/>
+    <feature manual="selected" name="Import"/>
+    <feature manual="selected" name="Send"/>
+    <feature automatic="selected" name="Managing"/>
+    <feature manual="selected" name="Accounts"/>
+    <feature automatic="selected" name="Base"/>
+</configuration>
