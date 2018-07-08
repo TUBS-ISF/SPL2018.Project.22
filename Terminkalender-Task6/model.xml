@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+    <properties/>
+    <struct>
+        <and abstract="true" mandatory="true" name="TerminkalenderTask6">
+            <feature abstract="true" name="Notification">
+                <description>
+Benachrichtigung erhalten, wenn ein Termin bevorsteht.
+</description>
+            </feature>
+            <or abstract="true" mandatory="true" name="Overviews">
+                <feature name="Day">
+                    <description>
+Eine Übersicht erhalten, welche Termine an einem bestimmten Tag anstehen.
+</description>
+                </feature>
+                <feature name="Week">
+                    <description>
+Eine Übersicht erhalten, welche Termine in einer bestimmten Woche anstehen.
+</description>
+                </feature>
+                <feature name="Month">
+                    <description>
+Eine Übersicht erhalten, welche Termine in einem bestimmten Monat anstehen.
+</description>
+                </feature>
+            </or>
+            <and abstract="true" mandatory="true" name="Appointment interaction">
+                <feature mandatory="true" name="Add">
+                    <description>
+Einen Termin zu dem Terminkalender hinzufügen.
+</description>
+                </feature>
+                <feature name="Delete">
+                    <description>
+Einen Termin von dem Terminkalender löschen.
+</description>
+                </feature>
+                <feature name="Edit">
+                    <description>
+Einen Termin aus dem Terminkalender bearbeiten.
+</description>
+                </feature>
+            </and>
+            <and abstract="true" mandatory="true" name="Appointment properties">
+                <feature abstract="true" name="Cyclic">
+                    <description>
+Der Termin ist ein Serientermin. (Angabe des Zyklus)
+</description>
+                </feature>
+                <feature name="Priority">
+                    <description>
+Die Angabe, welche Priorität ein Termin hat.
+</description>
+                </feature>
+                <feature abstract="true" name="Location">
+                    <description>
+Die Angabe, an welchem Ort der Termin stattfindet.
+</description>
+                </feature>
+                <feature mandatory="true" name="Time">
+                    <description>
+Die Angabe, zu welcher Zeit der Termin stattfindet.
+</description>
+                </feature>
+                <feature abstract="true" name="Participants">
+                    <description>
+Die Angabe, welche Personen an dem Termin teilnehmen werden.
+</description>
+                </feature>
+                <feature abstract="true" name="Type">
+                    <description>
+Die Angabe, von welchem Typ der Termin ist.
+</description>
+                </feature>
+                <feature mandatory="true" name="Title"/>
+            </and>
+            <or abstract="true" name="Filter">
+                <description>
+Die Möglichkeit, eingetragene Termine nach einer Eigenschaft zu filtern.
+</description>
+                <feature abstract="true" name="By time">
+                    <description>
+Die Möglichkeit, alle eingetragenen Termine nach der Eigenschaft "Zeit" zu filtern.
+</description>
+                </feature>
+                <feature abstract="true" name="By type">
+                    <description>
+Die Möglichkeit, alle eingetragenen Termine nach der Eigenschaft "Typ" zu filtern.
+</description>
+                </feature>
+                <feature abstract="true" name="By priority">
+                    <description>
+Die Möglichkeit, alle eingetragenen Termine nach der Eigenschaft "Priorität" zu filtern.
+</description>
+                </feature>
+            </or>
+            <and abstract="true" name="Interactions">
+                <feature abstract="true" name="Export">
+                    <description>
+Die Möglichkeit, Termine aus dem Kalender in eine Datei exportieren zu können.
+</description>
+                </feature>
+                <feature abstract="true" name="Import">
+                    <description>
+Die Möglichkeit, Termine aus dem Kalender aus einer Datei importieren zu können.
+</description>
+                </feature>
+                <feature abstract="true" name="Send">
+                    <description>
+Die Möglichkeit, Termine aus dem Kalender zu verschicken.
+</description>
+                </feature>
+            </and>
+            <and abstract="true" name="Managing">
+                <feature abstract="true" name="Accounts">
+                    <description>
+Die Möglichkeit, verschiedene, eigenständigen Terminkalender zu erstellen.
+</description>
+                </feature>
+            </and>
+            <feature mandatory="true" name="Base"/>
+        </and>
+    </struct>
+    <constraints>
+        <rule>
+            <imp>
+                <var>By priority</var>
+                <var>Priority</var>
+            </imp>
+        </rule>
+        <rule>
+            <imp>
+                <var>By type</var>
+                <var>Type</var>
+            </imp>
+        </rule>
+    </constraints>
+    <calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+    <comments/>
+    <featureOrder userDefined="true">
+        <feature name="Base"/>
+        <feature name="Add"/>
+        <feature name="Delete"/>
+        <feature name="Edit"/>
+        <feature name="Title"/>
+        <feature name="Time"/>
+        <feature name="Priority"/>
+        <feature name="Day"/>
+        <feature name="Week"/>
+        <feature name="Month"/>
+    </featureOrder>
+</featureModel>
